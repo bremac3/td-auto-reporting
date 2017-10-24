@@ -1,0 +1,12 @@
+{
+    "name": "node-api",
+    "main": "server.js",
+    "dependencies": {
+        "mocha": "^3.2.0",
+        "casperjs": "git://github.com/n1k0/casperjs.git#master",
+        "phantomjs": "^1.9.1"
+    },
+    "scripts": {
+    	"test": "mocha"
+  	}
+}
